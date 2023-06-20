@@ -1,0 +1,198 @@
+%lang starknet
+
+from starkware.cairo.common.cairo_builtins import HashBuiltin
+
+@view
+func get_material{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t0:felt) -> (res : felt){
+    if (t0 == /*MATERIAL*/){
+        return (res=0x342d632f16ffb39ea1c9ff43c5fd + t0*t0);
+}
+    return(res=0);
+}
+
+@view
+func get_product{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t:felt) -> (res : felt){
+    if (t == /*PRODUCT*/){
+        return (res=0x4168c574ea889d901813f732 + t*t);
+}
+    return(res=0);
+}
+
+@view
+func get_process1{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t1:felt) -> (res : felt){
+    if (t1 == /*process1*/){
+        return (res=0x537660c40b480f3f9d536943af3d1d + t1*t1);
+}
+    return(res=0);
+}
+
+@view
+func get_process2{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t2:felt) -> (res : felt){
+    if (t2 == /*process2*/){
+        return (res=0x486f660865f9b8455f2151347c1dfa63ff74f2d353a9e012f36603f26e69bb8a + t2*t2);
+}
+    return(res=0);
+}
+
+@view
+func get_process3{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t3:felt) -> (res : felt){
+    if (t3 == /*process3*/){
+        return (res=0x5769491b82af24d9c7a51fea1f3dfd + t3*t3);
+}
+    return(res=0);
+} 
+
+@view
+func get_process4{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t4:felt) -> (res : felt){
+    if (t4 == /*process4*/){
+        return (res=0x4f765a4dd1b64b37bfffee543fe821901b91bffcfb + t4*t4);
+}
+    return(res=0);
+} 
+
+
+@view
+func get_process5{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t5:felt) -> (res : felt){
+    if (t5 == /*process5*/){
+        return (res=0x4469656c732d416c646471de4768244dbc0502ad + t5*t5);
+}
+    return(res=0);
+} 
+
+@view
+func get_process6{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t6:felt) -> (res : felt){
+    if (t6 == /*process6*/){
+        return (res=0x4f6c60bd9cb557174a4b36d29d740d45e3 + t6*t6);
+}
+    return(res=0);
+} 
+
+@view
+func get_process7{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t7:felt) -> (res : felt){
+    if (t7 == /*process7*/){
+        return (res=0x4b72494bd06e442a4b6e3337e5c3554881796337902326 + t7*t7*t7);
+}
+    return(res=0);
+} 
+
+@view
+func get_process8{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t8:felt) -> (res : felt){
+    if (t8 == /*process8*/){
+        return (res=0x526f71b17463ac25adc0329705cbaff72086423381e19e9207f75726 + t8*t8*t8);
+}
+    return(res=0);
+} 
+
+@view
+func get_process9{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t9:felt) -> (res : felt){
+    if (t9 ==/*process9*/){
+        return (res=0x4744387d915d3e20eb63195f4ee8e18d86 + t9*t9*t9);
+}
+    return(res=0);
+} 
+
+@view
+func get_process10{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t10:felt) -> (res : felt){
+    if (t10 == /*process10*/){
+        return (res=0x2046616c629a738c4fa8c39659665c754c516e + t10*t10*t10);
+}
+    return(res=0);
+} 
+
+@view
+func get_process11{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t11:felt) -> (res : felt){
+    if (t11 == /*process11*/){
+        return (res=0x4c73b9f514a9afdf757e18020f8cae + t11*t11*t11);
+}
+    return(res=0);
+}
+
+@view
+func get_process12{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t12:felt) -> (res : felt){
+    if (t12 == /*process12*/){
+        return (res=0x46694cdd71c40446da2dd7241b54f1acb0a0882da7f2a1736e4560416e + t12*t12*t12);
+}
+    return(res=0);
+} 
+
+
+@view
+func get_process13{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t13:felt) -> (res : felt){
+    if (t13 ==/*process13*/){
+        return (res=0x1c87779e71ce885c2c59b33bde07571630f7 + t13*t13*t13);
+}
+    return(res=0);
+} 
+
+@view
+func get_process14{
+    syscall_ptr : felt*,
+    pedersen_ptr : HashBuiltin*,
+    range_check_ptr,
+}(t14:felt) -> (res : felt){
+    if (t14 == /*process14*/){
+        return (res=0x476c61736572293f6be76d101d052d743a5fbf + t14*t14*t14);
+}
+    return(res=0);
+} 
+

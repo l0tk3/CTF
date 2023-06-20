@@ -1,0 +1,10 @@
+admin,admin,0,10,0,[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100},{"name":"hero4","skills":[{"name":"hero4_skill","damage":10000}],"hp":10000},{"name":"hero5","skills":[{"name":"hero5_skill","damage":100000}],"hp":100000}]
+hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
+admin,admin,100,0,0,"[{"name":"hero1","skills":[{"name":"hero1_skill","damage":10}],"hp":100}]"
