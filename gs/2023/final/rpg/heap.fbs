@@ -1,0 +1,15 @@
+// struct Heap{
+//   size:int;
+//   content:[byte:2304];
+// }
+table Heapinfo{
+  idx:ulong;
+  heap:string;
+}
+table Player {
+  operation:string;
+  vectoridx:ulong;
+  create_size:ulong;
+  vec:[Heapinfo];
+}
+root_type Player;

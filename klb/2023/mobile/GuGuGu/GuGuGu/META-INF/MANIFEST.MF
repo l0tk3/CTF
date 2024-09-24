@@ -1,0 +1,105 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_242-release (JetBrains s.r.o)
+
+Name: AndroidManifest.xml
+SHA1-Digest: JBDZRE2QGzpjjRzFu6SN99NqN/E=
+
+Name: assets/paiming.png
+SHA1-Digest: +rjfq2zRO9qva1GAJyMRinxiyPY=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: EiwK8kBMU1KNYHD+UZX6svauW/s=
+
+Name: assets/niao1.png
+SHA1-Digest: bcnNlmKHZ4ZQPWKfe/BbMiTXtm0=
+
+Name: assets/d2.png
+SHA1-Digest: CFcjwp8MKJUxlzOI2G0ALkeNXMo=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: EiwK8kBMU1KNYHD+UZX6svauW/s=
+
+Name: assets/shuiguanxia.png
+SHA1-Digest: LExD8+TJBDR0zEjqrV0oJcqOJEs=
+
+Name: res/xml/file_paths_android.xml
+SHA1-Digest: gE7icfJcigwS8zrY2s/o1ZLFKAM=
+
+Name: assets/defen.mp3
+SHA1-Digest: WVWRye6PfIVHjRVPBnDsQBHxjYs=
+
+Name: assets/kaishi.png
+SHA1-Digest: HbHDnrBhQ2LqZBoIL0Q/kuS28Eg=
+
+Name: assets/shandong.mp3
+SHA1-Digest: QA721u++/JCGJ2tA7K8iZdiD05k=
+
+Name: assets/11.png
+SHA1-Digest: TesurwGo+1zp/zKHtB4vWa3dYv4=
+
+Name: assets/jifenban.png
+SHA1-Digest: wSD63i11bRF9xe740cXCdJnFQhA=
+
+Name: assets/shuiguanshang.png
+SHA1-Digest: qEiuwPyEP9DOJQBkV2u17ChZM88=
+
+Name: assets/dianji.mp3
+SHA1-Digest: 0MY6OkYnywbPrTuzwfP+Bu/OeCY=
+
+Name: assets/12.png
+SHA1-Digest: L+K8BwSu29I1gKTse5Q3CCRJtoE=
+
+Name: res/drawable/icon.png
+SHA1-Digest: EiwK8kBMU1KNYHD+UZX6svauW/s=
+
+Name: assets/HY.png
+SHA1-Digest: VRD4wvkGPy0jprt6ivD5bGxpJ94=
+
+Name: assets/siwang.mp3
+SHA1-Digest: A4OLuKbaQPFCsjiv2mn6OcDcoZg=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: EiwK8kBMU1KNYHD+UZX6svauW/s=
+
+Name: assets/xianshi.png
+SHA1-Digest: cAM5dAd2u1EYw5ZNOTmFHcF/hho=
+
+Name: assets/beizhuang.mp3
+SHA1-Digest: KXrF6JnE9jG9UeUMrAKAmGB94lQ=
+
+Name: assets/13.png
+SHA1-Digest: 0XSD/jQko+fyjU+pyI6ca9BYo7M=
+
+Name: assets/key.bin
+SHA1-Digest: YODj2OvUvMjRNNn8ravp6NEUxHc=
+
+Name: assets/biaoti.png
+SHA1-Digest: 9KIYT2FPX5NgUoat41vnkkAsHJU=
+
+Name: assets/21.png
+SHA1-Digest: bcnNlmKHZ4ZQPWKfe/BbMiTXtm0=
+
+Name: assets/BT.png
+SHA1-Digest: IGjrejMMZQVglpNGUE77cdeo/nQ=
+
+Name: assets/d3.png
+SHA1-Digest: fkAwynFPzRJCFIB4l0dOIOn21hI=
+
+Name: assets/niao3.png
+SHA1-Digest: ZK2So0ODGVDgkd0tiHXN65uDWoU=
+
+Name: assets/niao2.png
+SHA1-Digest: dCxMw6z3BP0iBLvXl28oSjG41ac=
+
+Name: resources.arsc
+SHA1-Digest: +0d4tceUrxGjHCJcP8nY0b275Sc=
+
+Name: assets/BG.png
+SHA1-Digest: 78h5nP0qwv6oVwrnu9mmFflUcIg=
+
+Name: assets/kaishianniu.png
+SHA1-Digest: 28XltQIbkUrGjjqKfWuEpI2hyKo=
+
+Name: classes.dex
+SHA1-Digest: kQIrNBhyZlvoZREma9N3mqF5tN0=
+

